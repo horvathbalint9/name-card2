@@ -123,6 +123,7 @@ p {
   border: solid rgb(4, 31, 4) 2px;
   box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
   text-align: center;
+  align-items: center;
   transition: all 1s ease-in-out;
   -webkit-filter: brightness(70%);
 }
@@ -143,6 +144,7 @@ p {
   border: solid rgb(4, 31, 4) 2px;
   box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
   text-align: center;
+  align-items: center;
   transition: all 1s ease-in-out;
   -webkit-filter: brightness(70%);
 }
@@ -226,5 +228,7 @@ color: rgb(245,96,64)
   left: 85px;
   bottom: 20px;
   justify-content: center;
+  text-align: center;
+  align-items: center;
   margin-top: 20px;
 }
