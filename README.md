@@ -1,2 +1,2 @@
-# name-card2
-My second name card.
+# name-card
+My online name card.
