@@ -7,6 +7,7 @@
 }
 
 .profile-card {
+  position: relative;
   margin:10;
   background-color: hsla(60, 100%, 50%, .4);
   width: 400px;
@@ -108,10 +109,10 @@ p {
 
 
 .hobby {
-  float: left;
   position: absolute;
   top: 300px;
-  left:590px;
+  float: left;
+  justify-content: center;
   margin-bottom: 5px;
   border: solid black 1px;
   height: 260px;
@@ -127,10 +128,11 @@ p {
 }
 
 .language {
-  float: right;
   position: absolute;
-  left: 800px;
+  left: 210px;
   top: 300px;
+  float: right;
+  justify-content: center;
   margin-bottom: 5px;
   border: solid black 1px;
   height: 260px;
@@ -220,7 +222,9 @@ color: rgb(245,96,64)
 }
 
 .contact {
-  position: absolute;
-  bottom:80px;
-  left: 660px;
+  position:absolute;
+  left: 85px;
+  bottom: 20px;
+  justify-content: center;
+  margin-top: 20px;
 }
